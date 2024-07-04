@@ -14,7 +14,7 @@ while True:
     # Display the frame in a window
     cv.imshow('Video', frame)
 
-    # Wait for 20 ms and break the loop if 'd' key is pressed
+    # Wait for 20 ms and break the loop if 'd' key is pressed 
     if cv.waitKey(20) & 0xFF == ord('d'):
         break
 
